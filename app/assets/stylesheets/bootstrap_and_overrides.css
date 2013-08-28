@@ -113,3 +113,9 @@
   background: url(../img/bs-docs-masthead-pattern.png) repeat center center;
   opacity: .4;
 }
+
+/* End of jumbotron and masthead styles */
+
+.navbar {
+  margin-bottom: 0px !important;
+}
