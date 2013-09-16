@@ -117,6 +117,7 @@
 /* End of jumbotron and masthead styles */
 
 .navbar {
+  padding: 0 20px 0 20px;
   margin-bottom: 0px !important;
 }
 
