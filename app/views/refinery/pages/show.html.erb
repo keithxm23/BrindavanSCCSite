@@ -1,10 +1,12 @@
 <div class="container">
   <div class="row">
-    <div class="span8">
+    <div class="span<% if @page.content_for(:side_body) == "" %>12<% else %>8<% end %>">
       <%=raw @page.content_for(:body) %>
     </div>
+    <% if @page.content_for(:side_body) != "" %>
     <div class="span4">
       <%=raw @page.content_for(:side_body) %>
     </div>
+    <% end %>
   </div>
 </div>
